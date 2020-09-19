@@ -177,7 +177,7 @@ Suggested Full Controller
 
 namespace App\Http\Controllers;
 
-use Cmabugay\Dengine\Dengine;
+use Chikolokoy08\Dengine\Dengine;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 

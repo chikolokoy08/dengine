@@ -1,0 +1,17 @@
+{
+    "name": "chikolokoy08/dengine",
+    "description": "Built to have a better integration, data clean-up and optimisation of datatable server side data.",
+    "keywords": ["laravel", "datatable"],
+    "homepage": "https://github.com/chikolokoy08/dengine",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Carlo Mabugay",
+            "email": "cmabugay@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.6"
+    }
+}
