@@ -1,6 +1,6 @@
 {
     "name": "chikolokoy08/dengine",
-    "description": "Built to have a better integration, data clean-up and optimisation of datatable server side data.",
+    "description": "Dengine - Datatable Helper for Laravel. Built to have a better integration, data clean-up and optimisation of datatable server side data. This is an alternative server side processing implementation to match the [DataTables](https://datatables.net/manual/server-side) Library.",
     "keywords": ["laravel", "datatable"],
     "homepage": "https://github.com/chikolokoy08/dengine",
     "license": "MIT",
