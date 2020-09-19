@@ -1,6 +1,6 @@
 <?php
 
-namespace Cmabugay\Dengine;
+namespace Chikolokoy08\Dengine;
 
 use Illuminate\Support\ServiceProvider;
 
