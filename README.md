@@ -10,7 +10,7 @@ Installation
 Install using composer:
 
 ```bash
-composer require cmabugay/datatable-engine-laravel
+composer require chikolokoy08/dengine
 ```
 
 Laravel (optional)
@@ -19,13 +19,13 @@ Laravel (optional)
 Add the service provider in `config/app.php`:
 
 ```php
-Cmabugay\Dengine\DengineServiceProvider::class
+Chikolokoy08\Dengine\DengineServiceProvider::class
 ```
 
 And add the Dengine alias to `config/app.php`:
 
 ```php
-'Dengine' => Cmabugay\Dengine\Facades\Dengine::class
+'Dengine' => Chikolokoy08\Dengine\Facades\Dengine::class
 ```
 
 Basic Instance
@@ -34,7 +34,7 @@ Basic Instance
 Start by creating a `Dengine` instance (or use the `Dengine` Facade if you are using Laravel):
 
 ```php
-use Cmabugay\Dengine\Dengine;
+use Chikolokoy08\Dengine\Dengine;
 
 $dengine = new Dengine();
 ```
