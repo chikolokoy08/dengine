@@ -13,5 +13,23 @@
     "minimum-stability": "stable",
     "require": {
         "php": ">=5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Chikolokoy08\\Dengine\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Chikolokoy08\\Dengine\\DengineServiceProvider"
+            ],
+            "aliases": {
+                "Dengine": "Chikolokoy08\\Dengine\\Facades\\Dengine"
+            }
+        }
+    },
+    "suggest": {
+        "illuminate/support": "Required for laravel service providers"
     }
 }
