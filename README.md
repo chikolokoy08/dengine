@@ -69,7 +69,7 @@ public function getDatatableEvents(Request $request)
 		$dengine::recordsTotal($total);
 
 		//PREPARING QUERY RESULT INTO DATATABLE JSON FORMAT
-		$dengine::prepare($query);
+		$dengine::prepare($query->toArray());
 
 		//RETURN AS JSON OBJECT
 		return $dengine::make();	
