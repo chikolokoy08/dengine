@@ -1,6 +1,6 @@
 <?php
 
-namespace Cmabugay\Dengine\Facades;
+namespace Chikolokoy08\Dengine\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
