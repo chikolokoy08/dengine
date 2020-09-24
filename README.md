@@ -137,7 +137,7 @@ public function eventQueryModel($qp=[])
 {
 	try {
 		$column_orderable 	= [ 'title', 'target', 'event_date'];
-		$qp['column_text']	= ($qp['column'] == '' ? $column_orderable[0] : $column_orderable[$qp['column']);
+		$qp['column_text']	= $qp['column'] == '' ? $column_orderable[0] : $column_orderable[$qp['column']];
 		$take           		= $get_total == true || $keyword != '' ? 5000000 : $take;
 		$whereClauses     	= "t.user_id = {$qp['user_id']}";
 		
