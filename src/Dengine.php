@@ -261,6 +261,7 @@ class Dengine {
 				'order_type' => static::order_type(), 
 				'keyword' => static::search_keyword(),
 				'get_total' => true,
+				'column' => static::column(),
 			];
 			if (!empty($arrays) && count($arrays) > 0) {
 				$full_parameters = array_merge($default_params, $arrays);
