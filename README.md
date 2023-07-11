@@ -98,7 +98,7 @@ public function getDatatableEvents(Request $request)
 		$dtparams = $dengine::setParameters(['user_id' => $user_id]);
 
 		//TOTAL RECORDS QUERY
-		$total = $model->eventQueryModel($dtparams);
+		$total = count($model->eventQueryModel($dtparams));
 
 		//Change $dtparams['get_total'] false
 		$dtparams['get_total'] = false;
