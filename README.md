@@ -10,7 +10,7 @@ Installation
 Install using composer:
 
 ```bash
-composer require chikolokoy08/dengine
+composer require chikolokoy08/dengine OR composer require chikolokoy08/dengine dev-master
 ```
 
 Laravel (optional)
